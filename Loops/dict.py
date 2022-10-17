@@ -2,10 +2,10 @@
 #schools = ["Harvard", "Oxford", "Politechnika", "Hogwart"]
 
 students = {
-    "Dave": "Harvard",
+    "Dave": "Harvard",  #1st keys
     "George": "Oxford",
-    "Mike": "Politechnika",
-    "Stan": "Hogwart",
+    "Mateo": "Politechnika",
+    "Harry": "Hogwart",
 }
 
 #print(students["Dave"])
@@ -14,4 +14,4 @@ students = {
 #print(students["Stan"])
 
 for student in students:
-    print(student)
+    print(student, students[student], sep=", ")
