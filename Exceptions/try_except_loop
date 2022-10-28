@@ -1,0 +1,30 @@
+while True:
+    try:
+        fuel = input ("Prompt fuel level with the fraction x/y: ")
+        fuel = fuel.split("/")
+        x = int(fuel [0])
+        y = int(fuel [1])
+        #print (x, y)
+        fuel_percent = round(x / y * 100,0)
+        fuel_percent = int(fuel_percent)
+
+        if fuel_percent > 100:
+            continue
+        elif fuel_percent >= 99:
+            print("F")
+            break
+        elif fuel_percent <= 1:
+            print("E")
+            break
+        else:
+            fuel_percent = str(fuel_percent) + "%"
+            fuel_percent_str = fuel_percent.replace(" ", "")
+            print(fuel_percent)
+            #print ('{:.0f}'.format(fuel_percent),"%")
+            #print('{:.0f}'.format(8.0))
+            break
+
+    except (ValueError, ZeroDivisionError, AttributeError):
+        continue
+
+
