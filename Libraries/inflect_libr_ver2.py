@@ -1,3 +1,5 @@
+# https://pypi.org/project/inflect/
+# pip install inflect
 import inflect
 
 p = inflect.engine()
@@ -9,5 +11,4 @@ try:
         names_list.append(input("Name: "))
 
 except (EOFError):
-    print("\nAdieu, adieu, to ", p.join(names_list, final_sep=""), sep="")
-
+    print("\nAdieu, adieu, to ", p.join(names_list, final_sep=","), sep="")
