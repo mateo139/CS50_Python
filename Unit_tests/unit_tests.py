@@ -9,6 +9,6 @@
 # pytest
 # pip install pytest
 
-### IMPORTANT RULE - to make programs more testable 
+### IMPORTANT RULE - to make programs more testable
 ###                 try to make functions return values
-###                 NOT to make visual effests eg print()
+###                 NOT to make visual effests e.g. print()
