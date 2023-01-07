@@ -4,7 +4,6 @@ from PIL import (
 )
 import sys
 
-
 try:
     shirt = Image.open("shirt.png")
     # print(shirt.format, shirt.size, shirt.mode)
@@ -14,9 +13,9 @@ try:
     )
 
     im = Image.open("before1.jpg")
-    # print(im.size)
     im.paste(shirt, mask=shirt)
     im.show()
+    im.save("after.jpg")
 
 except OSError:
     sys.exit("File can not be opened")
