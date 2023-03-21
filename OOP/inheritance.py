@@ -17,3 +17,4 @@ class Leader (Engineer):
 engineer = Engineer ("Grzegorz")
 man = Man ("Mateusz", "007")
 leader = Leader ("Krzysztof", "management")
+
