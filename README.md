@@ -9,5 +9,16 @@
 
 An introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.
 
-**Here I publish my Python development progress**
+**List of topics covered in the course and my progress**
+*Here I publish my Python development progress*
 
+- [x] Functions, Variables
+- [x] Conditionals
+- [x] Loops
+- [x] Exceptions
+- [x] Libraries
+- [x] Unit Tests
+- [x] File I/O
+- [x] Regular Expressions
+- [ ] Object-Oriented Programming
+- [ ] FINAL PROJECT
